@@ -1,0 +1,55 @@
+body {
+  background: whitesmoke;
+}
+
+main .slider .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+}
+
+main .slider .carousel-indicators [data-bs-target].active {
+  background: #198754;
+}
+
+main .slider .carousel-caption {
+  top: 15%;
+  left: 5%;
+}
+
+main .offers .off-box:nth-of-type(1) > div {
+  background-color: #fee2e2;
+}
+
+main .offers .off-box:nth-of-type(2) > div {
+  background-color: #e0e7ff;
+}
+
+main .offers .off-box:nth-of-type(3) > div {
+  background-color: #fef3c7;
+}
+
+main .offers .off-box:nth-of-type(4) > div {
+  background-color: #d1fae5;
+}
+
+main .featured .category {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+main .featured .category img {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+main .featured .category:hover {
+  -webkit-box-shadow: 0 0 12px #ddd;
+          box-shadow: 0 0 12px #ddd;
+}
+
+main .featured .category:hover img {
+  -webkit-transform: scale(1.3) rotate(360deg);
+          transform: scale(1.3) rotate(360deg);
+}
+/*# sourceMappingURL=style.css.map */
